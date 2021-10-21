@@ -4,7 +4,9 @@ Spyder Editor
 
 This is a temporary script file.
 """
-
+import sys
+# insert at 1, 0 is the script path (or '' in REPL)
+sys.path.insert(1, '/home/htang2')
 import kaldiark
 home_dir = "/home/s1964832/speech-processing/self-supervised"
 
